@@ -1,0 +1,99 @@
+name: trial_mobile
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  url_launcher: ^6.2.4
+  flutter_svg: ^2.0.9
+  just_audio: ^0.9.36
+  flutter_tts: ^4.0.2
+  card_swiper: ^3.0.1
+  adaptive_theme: ^3.6.0
+  fluttertoast: ^8.2.5
+  google_nav_bar: ^5.0.6
+  flutter_bloc: ^8.1.5
+  iconsax: ^0.0.8
+  flutter_screenutil: ^5.9.0
+  getwidget: ^4.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_sound: ^8.5.0
+  permission_handler: ^10.0.0 
+  path_provider: ^2.1.4
+  intl: ^0.17.0
+  assets_audio_player: ^3.0.3+3
+  record: ^5.1.2
+  audioplayers: ^6.0.0
+  google_fonts: ^6.2.1
+  lottie: ^3.0.0
+  animated_splash_screen: ^1.3.0
+  provider: ^6.1.2
+  path: ^1.9.0
+  localstorage: ^5.0.0
+  shared_preferences: ^2.3.2
+  flutter_hooks: ^0.20.5
+  speech_to_text: ^7.0.0
+  connectivity_plus: ^6.0.5
+  confetti: ^0.7.0
+  avatar_glow: ^3.0.1
+  
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "lib/img/logo.png"
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/
+    - assets/images/
+    - assets/images/animal/
+    - assets/images/things/
+    - assets/images/abakada/
+    - assets/images/salita/
+    - assets/images/parirala/
+    - assets/images/pangungusap/
+    - assets/images/alpabeto/
+    - assets/sounds/alpabeto/
+    - assets/sounds/animals/
+    - assets/sounds/abakada/
+    - assets/sounds/things/
+    - assets/sounds/salita/
+    - assets/sounds/parirala/
+    - assets/sounds/pangungusap/
+    - lib/img/
+    - lib/img/letters/
+    - assets/sounds/ulitin_muli.mp3
+    - assets/sounds/tama.mp3
+    
+  fonts: 
+    - family: 'aBeeZee'
+      fonts:
+        - asset: lib/assets/fonts/ABeeZee-Italic.ttf
+        - asset: lib/assets/fonts/ABeeZee-Regular.ttf
+    - family: 'Fredoka'
+      fonts:
+        - asset: lib/assets/fonts/Fredoka-Regular.ttf
+        - asset: lib/assets/fonts/Fredoka-Medium.ttf
+   
+   
+
+ 
